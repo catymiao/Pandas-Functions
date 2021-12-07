@@ -1,0 +1,7 @@
+cs.loc[(cs['age']<26),'AgeGroup']='25 or younger'
+cs.loc[(cs['age']>=26) & (cs['age']<31),'AgeGroup']='26-30'
+cs.loc[(cs['age']>=31) &(cs['age']<36) ,'AgeGroup']='31-35'
+cs.loc[(cs['age']>=36) &(cs['age']<41) ,'AgeGroup']='36-40'
+cs.loc[(cs['age']>=41) &(cs['age']<46) ,'AgeGroup']='41-45'
+cs.loc[(cs['age']>=46) &(cs['age']<51) ,'AgeGroup']='46-50'
+cs.loc[(cs['age']>=51) ,'AgeGroup']='51 or older'
